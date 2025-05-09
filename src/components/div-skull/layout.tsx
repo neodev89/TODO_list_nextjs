@@ -20,7 +20,9 @@ export const DivSkullLayout = ({
 }: layoutType) => {
     return (
         <div className={style.layout_div}>
-            {children}
+            <div className={style.layout_div_col}>
+                {children}
+            </div>
         </div>
     );
 }

@@ -1,10 +1,9 @@
-import { DivSkull } from '@/components/div-skull/page';
-import './global.css';
+import style from "./style.module.sass";
 
 export default function Home() {
   return (
-    <div className="page">
-      <DivSkull />
+    <div className={style.page}>
+      <div>Add Login component</div>
     </div>
   );
 }

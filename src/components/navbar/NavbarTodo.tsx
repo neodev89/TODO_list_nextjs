@@ -12,7 +12,9 @@ export const NavbarTodo = () => {
         <div className={style.navbar_todo}>
             <div className={style.navbar_div_buttons}>
                 <div className={style.navbar_div_home_btn}>
-                    <button type="button" className={style.navbar_divs_btn}>Ciao</button>
+                    <button type="button" className={style.navbar_divs_btn}>
+                        Home
+                    </button>
                 </div>
                 <div className={style.navbar_div_other_btns}>
                     <div className={style.navbar_div_others}>

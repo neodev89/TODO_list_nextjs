@@ -1,0 +1,23 @@
+{
+    "dynamic_data": {
+        "web_application": {
+            "id": "web_application_fullstack",
+            "name": "web_application_fullstack",
+            "data": {
+                "title": "A new project in Next.js",
+                "subtitle": "implemented login, with email and password, and JWT",
+                "start": "01/05/2025",
+                "technologies": [
+                    "Next.js"
+                ],
+                "description_technologies": {
+                    "Reactjs": "To implement interfaces responsive and dynamic",
+                    "Nodejs": "To implement strong and robust server and APIs",
+                    "Sass": "To implement responsive styles with modern css",
+                    "Bcrypt": "This is a modern library to hash sensible data (example: password)",
+                    "UUID": "This library is used to create an ever-changing ID that minimizes the chances of creating a duplicate"
+                }
+            }
+        }
+    }
+}
